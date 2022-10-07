@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <script src="./script.js"></script>
+    <title>Piedra, Papel o Tijeras</title>
+</head>
+
+<body>
+    <div class="puntajes">
+        <h3 class="contenedor-puntaje-jugador">Jugador: <h3 class="puntaje-jugador">0</h3></h3>
+        <h3 class="contenedor-puntaje-computadora">Computadora: <h3 class="puntaje-computadora">0</h3></h3>
+    </div>
+
+    <h1>Piedra, Papel o Tijeras</h1>
+    <br>
+    <h2 class="resultado">...Resultado...</h2>
+    <h3 class="especificaciones">...vs...</h3>
+
+
+    <div>
+        <button onclick="jugar(0)"><img src="./img/piedra.png"></button>
+        <button onclick="jugar(1)"><img src="./img/papel.png"></button>
+        <button onclick="jugar(2)"><img src="./img/tijeras.png"></button>
+    </div>
+    <button class="reiniciar" onclick="reiniciar()">Reiniciar</button>
+</body>
+
+</html>

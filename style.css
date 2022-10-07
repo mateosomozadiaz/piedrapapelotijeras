@@ -1,0 +1,74 @@
+* {
+    text-align: center;
+}
+
+body {
+    background: rgb(231, 142, 243);
+    margin: 0px;
+}
+
+h1 {
+    color: white;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.puntaje-jugador {
+    margin: 0px;
+}
+
+.puntaje-computadora {
+    margin: 0px;
+}
+
+.contenedor-puntaje-jugador {
+    margin: 0px;
+}
+
+.contenedor-puntaje-computadora {
+    margin: 0px;
+}
+
+.puntajes {
+    margin: 0px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+}
+
+.especificaciones {
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button {
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.699);
+    border-style: solid;
+    border-radius: 20px;
+    color: white;
+    transition: 1s;
+    padding: 25px;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.384);
+
+}
